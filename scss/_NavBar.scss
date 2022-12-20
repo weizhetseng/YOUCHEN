@@ -1,0 +1,14 @@
+h1 {
+    background: #fff;
+
+    a {
+        display: block;
+        width: 360px;
+        height: 55px;
+        background: url('../image/logo.png')center no-repeat;
+        background-size: contain;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
