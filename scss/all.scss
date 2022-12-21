@@ -1,1 +1,7 @@
-@import './NavBar';
+@import './base/reset.scss';
+@import './base/mixin';
+
+@import './layout/NavBar';
+@import './layout/Footer';
+
+@import './page/index';

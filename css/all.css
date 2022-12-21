@@ -1,3 +1,28 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
 h1 {
   background: #fff;
 }
@@ -5,9 +30,197 @@ h1 a {
   display: block;
   width: 360px;
   height: 55px;
-  background: url("../image/logo.png") center no-repeat;
+  background: url("../image/logo/logo.png") center no-repeat;
   background-size: contain;
   text-indent: 101%;
   white-space: nowrap;
   overflow: hidden;
-}/*# sourceMappingURL=All.css.map */
+}
+
+footer {
+  background: #204EAB;
+  padding: 30px;
+  color: #fff;
+}
+footer .col-lg-2 {
+  text-align: center;
+}
+footer .col-lg-10 {
+  border-left: 1px solid #fff;
+  padding-left: 30px;
+}
+footer .copyRight p {
+  font-size: 13px;
+}
+footer .copyRight p a {
+  color: #fff;
+}
+footer .content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer ul {
+  margin-bottom: 10px;
+}
+footer ul li {
+  margin-bottom: 10px;
+}
+@media (max-width: 992px) {
+  footer .col-lg-2 {
+    margin-bottom: 20px;
+  }
+  footer .col-lg-10 {
+    border-left: none;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  footer .col-md-6 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+
+.index .subject {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.index .subject span {
+  color: #204EAB;
+  font-weight: bold;
+}
+.index .row > * {
+  padding: 0;
+}
+.index .section1 {
+  margin-bottom: 120px;
+}
+.index .section1 .left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.index .section1 .right {
+  background: #F2F2F2;
+  padding: 50px;
+}
+.index .section1 .right h3 {
+  margin-bottom: 40px;
+}
+.index .section1 .right ul {
+  margin-bottom: 40px;
+}
+.index .section1 .right ul li {
+  margin-bottom: 10px;
+}
+.index .section1 .right .col-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.index .section1 .right .col-6 div {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #84AAF6;
+  -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+}
+.index .section1 .right a {
+  display: block;
+  text-align: right;
+  color: #204EAB;
+}
+.index .section1 .right a i {
+  margin-left: 5px;
+}
+.index .section2 {
+  margin-bottom: 95px;
+}
+.index .section2 .left {
+  background: #F2F2F2;
+  padding: 50px 50px 30px 50px;
+}
+.index .section2 .left h3 {
+  margin-bottom: 40px;
+}
+.index .section2 .left h4 {
+  margin-bottom: 15px;
+}
+.index .section2 .left ul {
+  margin-bottom: 48px;
+}
+.index .section2 .left ul li {
+  margin-bottom: 10px;
+}
+.index .section2 .left a {
+  display: block;
+  color: #204EAB;
+}
+.index .section2 .left a i {
+  margin-left: 5px;
+}
+.index .section2 .right img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.index .section3 {
+  margin-bottom: 100px;
+}
+.index .section3 h3 {
+  text-align: center;
+  color: #666666;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.index .section3 .col-12 {
+  position: relative;
+  cursor: pointer;
+}
+.index .section3 .col-12:hover .wrap {
+  opacity: 0.5;
+}
+.index .section3 .col-12:hover .wrapImg {
+  opacity: 1;
+}
+.index .section3 .col-12 .wrap {
+  background-color: #fff;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.index .section3 .col-12 .wrapImg {
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}/*# sourceMappingURL=all.css.map */
