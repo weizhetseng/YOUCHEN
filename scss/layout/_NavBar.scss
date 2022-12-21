@@ -1,14 +1,73 @@
-h1 {
-    background: #fff;
+.navbar {
+    h1 {
+        background: #fff;
 
-    a {
-        display: block;
-        width: 360px;
-        height: 55px;
-        background: url('../image/logo/logo.png')center no-repeat;
-        background-size: contain;
-        text-indent: 101%;
-        white-space: nowrap;
-        overflow: hidden;
+        a {
+            display: block;
+            width: 360px;
+            height: 55px;
+            background: url('../image/logo/logo.png')center no-repeat;
+            background-size: contain;
+            text-indent: 101%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+
+    .nav-item {
+        font-size: 19px;
+        font-weight: bold;
+        margin-right: 35px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .dropdown {
+        width: 150px;
+        background: #204EAB;
+
+
+        .dropdown-toggle {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+
+            i {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+
+        .dropdown-item {
+            padding: 4px 0 4px 10px;
+        }
+    }
+
+    @include xl {
+        .nav-item {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+    }
+
+    @include sm {
+        h1 {
+            a {
+                width: 250px;
+                height: 45px;
+            }
+        }
+    }
+
+    @include xs {
+        h1 {
+            a {
+                width: 200px;
+                height: 40px;
+            }
+        }
     }
 }

@@ -8,6 +8,7 @@
 
 <body>
     <!--#include file="includeBtn/btn_NavBar.asp"-->
+    <!--#include file="includeBtn/btn_Banner.asp"-->
     <div class="container index">
         <div class="subject">
             <p>祐振塑膠工業有限公司專職塑膠射出代工，生產類別相當廣泛，配合包羅萬象的塑膠種類，提供給各行各業不同的產品。</p>
@@ -100,34 +101,46 @@
             <h3>公司環境</h3>
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-12">
-                    <img src="./image/page/IMG 拷貝 2.png" alt="">
-                    <div class="wrap"></div>
-                    <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    <a href="./image/page/IMG 拷貝 2.png" data-lightbox="pic-1">
+                        <img src="./image/page/IMG 拷貝 2.png" alt="">
+                        <div class="wrap"></div>
+                        <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
-                    <img src="./image/page/IMG 拷貝 4.png" alt="">
-                    <div class="wrap"></div>
-                    <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    <a href="./image/page/IMG 拷貝 4.png" data-lightbox="pic-2">
+                        <img src="./image/page/IMG 拷貝 4.png" alt="">
+                        <div class="wrap"></div>
+                        <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
-                    <img src="./image/page/IMG 拷貝 2.png" alt="">
-                    <div class="wrap"></div>
-                    <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    <a href="./image/page/IMG 拷貝 2.png" data-lightbox="pic-3">
+                        <img src="./image/page/IMG 拷貝 2.png" alt="">
+                        <div class="wrap"></div>
+                        <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
-                    <img src="./image/page/IMG 拷貝 4.png" alt="">
-                    <div class="wrap"></div>
-                    <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    <a href="./image/page/IMG 拷貝 4.png" data-lightbox="pic-4">
+                        <img src="./image/page/IMG 拷貝 4.png" alt="">
+                        <div class="wrap"></div>
+                        <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
-                    <img src="./image/page/IMG 拷貝 2.png" alt="">
-                    <div class="wrap"></div>
-                    <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    <a href="./image/page/IMG 拷貝 2.png" data-lightbox="pic-5">
+                        <img src="./image/page/IMG 拷貝 2.png" alt="">
+                        <div class="wrap"></div>
+                        <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
-                    <img src="./image/page/IMG 拷貝 4.png" alt="">
-                    <div class="wrap"></div>
-                    <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    <a href="./image/page/IMG 拷貝 4.png" data-lightbox="pic-6">
+                        <img src="./image/page/IMG 拷貝 4.png" alt="">
+                        <div class="wrap"></div>
+                        <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
