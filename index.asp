@@ -145,6 +145,7 @@
             </div>
         </div>
     </div>
+    <!--#include file="includeBtn/btn_ToTop.asp"-->
     <!--#include file="includeBtn/btn_Footer.asp"-->
     <!--#include file="includeBtn/btn_js.asp"-->
 </body>

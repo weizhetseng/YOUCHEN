@@ -131,6 +131,30 @@ footer ul li {
   }
 }
 
+#topBtn {
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  background: #204EAB;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 35px;
+  position: fixed;
+  right: 2%;
+  bottom: 150px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+}
+
 .banner .swiper-button-next,
 .banner .swiper-button-prev {
   color: #fff;
