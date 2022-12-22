@@ -28,7 +28,6 @@
             <img src="./image/other/组 218.png" alt="">
             產品領域
         </h2>
-
     </div>
     <!--#include file="includeBtn/btn_ToTop.asp"-->
     <!--#include file="includeBtn/btn_Footer.asp"-->

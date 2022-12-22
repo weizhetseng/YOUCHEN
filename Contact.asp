@@ -73,6 +73,17 @@
             </form>
         </div>
 
+        <div class="row">
+            <div class="col-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.5601087055456!2d120.56242325100308!3d24.081790681875283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346938e7862fdd7d%3A0x19392ccdffe20ff1!2zNTAw5b2w5YyW57ij5b2w5YyW5biC56u55ZKM6LevMjAw5be3ODXomZ8!5e0!3m2!1szh-TW!2stw!4v1671701847186!5m2!1szh-TW!2stw"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-6"></div>
+        </div>
+
+
 
     </div>
     <!--#include file="includeBtn/btn_ToTop.asp"-->

@@ -1029,6 +1029,9 @@ footer ul li {
           transform: translateY(-50%);
   z-index: -1;
 }
+.contact form {
+  margin-bottom: 100px;
+}
 @media (max-width: 992px) {
   .contact .btnGroup div {
     width: 70%;

@@ -94,6 +94,10 @@
         }
     }
 
+    form {
+        margin-bottom: 100px;
+    }
+
     @include lg {
         .btnGroup {
             div {
