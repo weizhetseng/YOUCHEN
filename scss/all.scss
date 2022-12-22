@@ -1,9 +1,14 @@
+// base
 @import './base/reset.scss';
 @import './base/mixin';
 
+//layout
 @import './layout/NavBar';
 @import './layout/Footer';
-@import './layout/ToTop';
+@import './layout/global';
 
-@import './page/Banner';
+//page
 @import './page/index';
+@import './page/about';
+@import './page/news';
+@import './page/newsDetail';
