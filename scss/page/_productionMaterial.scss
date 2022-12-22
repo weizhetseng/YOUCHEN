@@ -1,0 +1,197 @@
+.productionMaterial {
+    margin-bottom: 150px;
+    border-bottom: 1px dashed #A3A3A3;
+
+    .row {
+        margin-bottom: 90px;
+
+        h3 {
+            font-size: 32px;
+            color: #204EAB;
+        }
+
+        p {
+            font-size: 18px;
+            color: #373737;
+        }
+    }
+
+    .material {
+        position: relative;
+        user-select: none;
+        margin-bottom: 100px;
+
+        .materialTag {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            position: absolute;
+
+            span {
+                font-size: 20px;
+                color: #373737;
+
+                &:first-child {
+                    font-size: 25px;
+                    color: #204EAB;
+                }
+            }
+        }
+
+        .swiper-wrapper {
+            padding-top: 100px;
+        }
+
+        .swiper-slide {
+            padding: 20px;
+            text-align: center;
+
+            a {
+                p {
+                    color: #204EAB;
+                    font-size: 25px;
+                    margin-top: 30px;
+                }
+
+                div {
+                    background: #fff;
+                    border: 1px solid transparent;
+                    box-shadow: 0 0 6px 1px rgb(0 0 0 / 30%);
+                    border-radius: 30px 0 30px 0;
+                    position: relative;
+
+                    &::after {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        width: 70%;
+                        height: 70%;
+                        border-radius: 30px 0 30px 0;
+                        background: #ED9662;
+                        top: -20px;
+                        left: -20px;
+                        z-index: -1;
+                    }
+                }
+
+                &:hover {
+                    div {
+                        border: 1px solid #204EAB;
+
+                        &::after {
+                            background: #204EAB;
+                        }
+                    }
+                }
+            }
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            border: 1px solid #204EAB;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            top: 5%;
+
+            &::after {
+                font-size: 25px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                font-weight: bold;
+                color: #204EAB;
+                transform: translate(-50%, -50%);
+            }
+
+            &:hover {
+                background: #204EAB;
+
+                &::after {
+                    color: #fff;
+                }
+            }
+        }
+
+        .swiper-button-prev {
+            left: 85%;
+        }
+    }
+
+    @include xl {
+        margin-bottom: 80px;
+
+        .material {
+            margin-bottom: 50px;
+
+            .swiper-button-prev {
+                left: 80%;
+            }
+        }
+    }
+
+    @include lg {
+
+        .row {
+            margin-bottom: 60px;
+        }
+
+        .material {
+            .swiper-button-prev {
+
+                left: 75%;
+            }
+        }
+    }
+
+    @include md {
+        .row {
+            h3 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+
+        .material {
+            .swiper-button-prev {
+
+                left: 70%;
+            }
+        }
+    }
+
+    @include sm {
+        .material {
+            margin-bottom: 0;
+
+            .swiper-wrapper {
+                padding-top: 50px;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+
+                width: 40px;
+                height: 40px;
+                top: 5.5%;
+
+                &::after {
+                    font-size: 20px;
+                }
+            }
+
+            .swiper-button-prev {
+                left: 70%;
+            }
+        }
+    }
+
+
+    @include xs {
+        .material {
+            .swiper-button-prev {
+                left: 60%;
+            }
+        }
+    }
+}

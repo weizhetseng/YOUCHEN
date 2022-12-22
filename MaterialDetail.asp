@@ -21,13 +21,18 @@
             </li>
             <li>/</li>
             <li>產品領域</li>
+            <li>/</li>
+            <li>尼龍</li>
         </ul>
     </div>
-    <div class="container productField">
+    <div class="container MaterialDetail">
         <h2 class="pageTitle">
             <img src="./image/other/组 218.png" alt="">
-            產品領域
+            生產材質
         </h2>
+
+        <h3>尼龍</h3>
+        <div></div>
 
     </div>
     <!--#include file="includeBtn/btn_ToTop.asp"-->

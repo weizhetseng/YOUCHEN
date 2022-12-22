@@ -1,0 +1,154 @@
+.contact {
+    margin-bottom: 150px;
+
+    h3 {
+        text-align: center;
+        font-size: 20px;
+        border-bottom: 1px dashed #A3A3A3;
+        padding-bottom: 50px;
+        margin-bottom: 35px;
+    }
+
+    span {
+        color: red;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    .inputArea {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        label {
+            width: 40%;
+            border-bottom: 1px solid #204EAB;
+
+            input {
+                border: none;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .inputTextArea {
+        margin-bottom: 80px;
+
+        label {
+            width: 100%;
+            border-bottom: 1px solid #204EAB;
+
+        }
+
+        textarea {
+            width: 100%;
+            border: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .btnGroup {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div {
+            width: 50%;
+            background: #fff;
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            border: none;
+            background: #204EAB;
+            color: #fff;
+            padding: 12px 24px;
+            box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #204EAB;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+    }
+
+    @include lg {
+        .btnGroup {
+            div {
+                width: 70%;
+            }
+        }
+    }
+
+    @include md {
+        .inputArea {
+            flex-direction: column;
+            margin-bottom: 0;
+
+            label {
+                width: 100%;
+                border-bottom: 1px solid #204EAB;
+                margin-bottom: 40px;
+
+                input {
+                    border: none;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+    @include sm {
+        .btnGroup {
+            div {
+                width: 71%;
+            }
+
+            button {
+                border: none;
+                background: #204EAB;
+                color: #fff;
+                padding: 12px;
+                box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+
+    @include xs {
+        .btnGroup {
+            div {
+                width: 95%;
+            }
+        }
+    }
+}
