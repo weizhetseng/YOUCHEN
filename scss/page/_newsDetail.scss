@@ -87,34 +87,6 @@
         }
     }
 
-    .back {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        a {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            background: #204EAB;
-            color: #fff;
-            padding: 12px 30px;
-            position: relative;
-
-            &::before {
-                content: '';
-                display: block;
-                position: absolute;
-                width: 5px;
-                height: 100%;
-                background: #7396DC;
-                left: 0;
-                top: 0;
-            }
-        }
-    }
-
-
     @include lg {
         margin-bottom: 80px;
 

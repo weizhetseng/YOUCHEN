@@ -1,3 +1,12 @@
+body {
+    background: url(../image/other/YOUCHEN.png) no-repeat, url(../image/other/YOUCHEN02.png) no-repeat;
+    background-position: left 700px, right bottom 200px;
+
+    @include xl {
+        background: none;
+    }
+}
+
 //回到頂部按鈕
 #topBtn {
     width: 60px;
@@ -28,14 +37,39 @@
         padding: 20px;
 
         li {
+            font-size: 18px;
 
             a {
                 display: flex;
                 align-items: center;
                 color: #666666;
                 gap: 5px;
+
             }
 
+        }
+    }
+
+    @include sm {
+        ul {
+            li {
+                font-size: 16px;
+
+                a {
+                    img {
+                        width: 20px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    @include xs {
+        ul {
+            li {
+                font-size: 14px;
+            }
         }
     }
 }
@@ -108,6 +142,34 @@
                 width: 35px;
                 height: 35px;
             }
+        }
+    }
+}
+
+// 返回上一頁按鈕
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        background: #204EAB;
+        color: #fff;
+        padding: 12px 30px;
+        position: relative;
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 5px;
+            height: 100%;
+            background: #7396DC;
+            left: 0;
+            top: 0;
         }
     }
 }
