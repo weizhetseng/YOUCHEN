@@ -7,7 +7,19 @@
 
         h3 {
             font-size: 32px;
-            color: #204EAB;
+            color: $main;
+            position: relative;
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 30px;
+                height: 3px;
+                background: #7396DC;
+                bottom: -5px;
+                left: 1px;
+            }
         }
 
         p {
@@ -33,7 +45,7 @@
 
                 &:first-child {
                     font-size: 25px;
-                    color: #204EAB;
+                    color: $main;
                 }
             }
         }
@@ -48,7 +60,7 @@
 
             a {
                 p {
-                    color: #204EAB;
+                    color: $main;
                     font-size: 25px;
                     margin-top: 30px;
                 }
@@ -76,10 +88,10 @@
 
                 &:hover {
                     div {
-                        border: 1px solid #204EAB;
+                        border: 1px solid $main;
 
                         &::after {
-                            background: #204EAB;
+                            background: $main;
                         }
                     }
                 }
@@ -88,7 +100,7 @@
 
         .swiper-button-next,
         .swiper-button-prev {
-            border: 1px solid #204EAB;
+            border: 1px solid $main;
             width: 60px;
             height: 60px;
             border-radius: 50%;
@@ -100,12 +112,12 @@
                 top: 50%;
                 left: 50%;
                 font-weight: bold;
-                color: #204EAB;
+                color: $main;
                 transform: translate(-50%, -50%);
             }
 
             &:hover {
-                background: #204EAB;
+                background: $main;
 
                 &::after {
                     color: #fff;

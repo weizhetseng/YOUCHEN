@@ -1,9 +1,24 @@
-body {
+.bg {
     background: url(../image/other/YOUCHEN.png) no-repeat, url(../image/other/YOUCHEN02.png) no-repeat;
-    background-position: left 700px, right bottom 200px;
+    background-position: -40px 35%, right -40px bottom 10%;
 
     @include xl {
         background: none;
+    }
+}
+
+.bgUni {
+    background: url(../image/other/YOUCHEN.png) no-repeat, url(../image/other/YOUCHEN02.png) no-repeat, url(../image/other/重复网格\ 1.png) no-repeat, url(../image/other/重复网格\ 1.png) no-repeat;
+    background-position: -40px 35%, right -40px bottom 10%, right 37%, left 65%;
+
+    @include xl {
+        background: none;
+    }
+}
+
+.banner2 {
+    img {
+        width: 100%;
     }
 }
 
@@ -12,7 +27,7 @@ body {
     width: 60px;
     height: 60px;
     color: #fff;
-    background: #204EAB;
+    background: $main;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -116,14 +131,14 @@ body {
             color: #000;
 
             &:hover {
-                border: 1px solid #204EAB;
+                border: 1px solid $main;
                 background: #fff;
                 box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
 
             }
 
             &.active {
-                border: 1px solid #204EAB;
+                border: 1px solid $main;
                 background: #fff;
                 box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
             }
@@ -156,7 +171,7 @@ body {
         display: flex;
         gap: 10px;
         align-items: center;
-        background: #204EAB;
+        background: $main;
         color: #fff;
         padding: 12px 30px;
         position: relative;

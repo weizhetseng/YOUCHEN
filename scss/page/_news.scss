@@ -48,7 +48,7 @@
                     position: absolute;
                     width: 100px;
                     height: 80px;
-                    border: 2px solid #204EAB;
+                    border: 2px solid $main;
                     top: 55%;
                     left: 50%;
                     z-index: -1;
@@ -62,13 +62,13 @@
                 p {
                     margin-bottom: 0;
                     font-size: 15px;
-                    color: #204EAB;
+                    color: $main;
                     background: #fff;
 
                     &:first-child {
                         font-size: 45px;
                         font-weight: bold;
-                        border-bottom: 1px solid #204EAB;
+                        border-bottom: 1px solid $main;
                         margin-bottom: 2px;
                     }
 
@@ -100,7 +100,7 @@
 
                 a {
                     color: #fff;
-                    background: #204EAB;
+                    background: $main;
                     padding: 5px 12px;
                     position: relative;
 

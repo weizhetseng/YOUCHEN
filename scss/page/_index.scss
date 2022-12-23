@@ -6,7 +6,7 @@
         font-size: 20px;
 
         span {
-            color: #204EAB;
+            color: $main;
             font-weight: bold;
             font-size: 22px;
         }
@@ -67,7 +67,7 @@
 
             a {
                 text-align: right;
-                color: #204EAB;
+                color: $main;
                 font-size: 20px;
                 display: block;
 
@@ -110,7 +110,7 @@
             }
 
             a {
-                color: #204EAB;
+                color: $main;
                 font-size: 20px;
 
                 i {

@@ -6,7 +6,7 @@
 </head>
 
 
-<body>
+<body class="bg">
     <!--#include file="includeBtn/btn_NavBar.asp"-->
     <div class="banner2">
         <img src="./image/banner/Banner04.png" alt="">
