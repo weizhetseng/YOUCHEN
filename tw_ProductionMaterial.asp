@@ -45,7 +45,7 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="MaterialDetail.asp">
+                    <a href="tw_MaterialDetail.asp">
                         <div>
                             <img src="./image/page/production.png" alt="">
                         </div>
@@ -53,7 +53,7 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="MaterialDetail.asp">
+                    <a href="tw_MaterialDetail.asp">
                         <div>
                             <img src="./image/page/production.png" alt="">
                         </div>
@@ -61,7 +61,7 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="MaterialDetail.asp">
+                    <a href="tw_MaterialDetail.asp">
                         <div>
                             <img src="./image/page/production.png" alt="">
                         </div>
@@ -69,7 +69,7 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="MaterialDetail.asp">
+                    <a href="tw_MaterialDetail.asp">
                         <div>
                             <img src="./image/page/production.png" alt="">
                         </div>
@@ -77,7 +77,7 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="MaterialDetail.asp">
+                    <a href="tw_MaterialDetail.asp">
                         <div>
                             <img src="./image/page/production.png" alt="">
                         </div>
@@ -85,7 +85,7 @@
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="MaterialDetail.asp">
+                    <a href="tw_MaterialDetail.asp">
                         <div>
                             <img src="./image/page/production.png" alt="">
                         </div>

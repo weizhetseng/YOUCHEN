@@ -14,7 +14,7 @@
     <div class="breadcrumb">
         <ul class="container">
             <li>
-                <a href="Index.asp">
+                <a href="tw_Index.asp">
                     <img src="./image/other/Icon awesome-home.png" alt="">
                     首頁
                 </a>
@@ -47,7 +47,7 @@
                     假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容
                 </p>
                 <div class="moreBtn">
-                    <a href="NewsDetail.asp">
+                    <a href="tw_NewsDetail.asp">
                         更多內容
                         <i class="fa-solid fa-angle-right"></i>
                     </a>
@@ -72,7 +72,7 @@
                     假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容
                 </p>
                 <div class="moreBtn">
-                    <a href="NewsDetail.asp">
+                    <a href="tw_NewsDetail.asp">
                         更多內容
                         <i class="fa-solid fa-angle-right"></i>
                     </a>
@@ -97,7 +97,7 @@
                     假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容
                 </p>
                 <div class="moreBtn">
-                    <a href="NewsDetail.asp">
+                    <a href="tw_NewsDetail.asp">
                         更多內容
                         <i class="fa-solid fa-angle-right"></i>
                     </a>
@@ -122,7 +122,7 @@
                     假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容
                 </p>
                 <div class="moreBtn">
-                    <a href="NewsDetail.asp">
+                    <a href="tw_NewsDetail.asp">
                         更多內容
                         <i class="fa-solid fa-angle-right"></i>
                     </a>
