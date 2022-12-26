@@ -29,10 +29,10 @@
             關於我們
         </h2>
         <div class="row section1">
-            <div class="col-lg-2">
+            <div class="col-lg-2" data-aos="fade-right">
                 <h3>服務項目</h3>
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-10" data-aos="fade-up">
                 <p>祐振塑膠工業有限公司專職塑膠射出代工，生產類別相當廣泛，配合包羅萬象的塑膠種類，提供給各行各業不同的產品。</p>
                 <p>祐振塑膠工業有限公司的主要經營方針，除了秉持著<span>「品質」、「服務」、「迅速」、「確實」</span>的經營理念外，更有以下三點：</p>
                 <ul>
@@ -74,10 +74,10 @@
             </div>
         </div>
         <div class="row section2">
-            <div class="col-lg-2">
+            <div class="col-lg-2" data-aos="fade-right">
                 <h3>機台設備與公司環境 </h3>
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-10" data-aos="fade-up">
                 <ul class="row">
                     <li class="col-sm-6"><img src="./image/page/about01.png" alt=""></li>
                     <li class="col-sm-6"><img src="./image/page/about02.png" alt=""></li>

@@ -17,10 +17,10 @@
         </div>
 
         <div class="row section1">
-            <div class="col-lg-6 left">
+            <div class="col-lg-6 left" data-aos="fade-right">
                 <img src="./image/page/111584445_m.png" alt="">
             </div>
-            <div class="col-lg-6 right">
+            <div class="col-lg-6 right" data-aos="fade-left">
 
                 <h3>祐振塑膠工業有限公司的主要經營理念以外更有以下三點：</h3>
                 <ul>
@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="row section2">
-            <div class="col-lg-6 left">
+            <div class="col-lg-6 left" data-aos="fade-right">
                 <div>
                     <h3>主要生產材質 :
                         I 尼龍 I ABS/PMMA 壓克力 I 鐵氟龍 I
@@ -93,13 +93,13 @@
                     <a href="#">查看更多<i class="fa-solid fa-angles-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 right">
+            <div class="col-lg-6 right" data-aos="fade-left">
                 <img src="./image/page/29578546_m.png" alt="">
             </div>
         </div>
         <div class="section3">
             <h3>公司環境</h3>
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <div class="col-md-4 col-sm-6 col-12">
                     <a href="./image/page/IMG 拷貝 2.png" data-lightbox="pic-1">
                         <img src="./image/page/IMG 拷貝 2.png" alt="">
