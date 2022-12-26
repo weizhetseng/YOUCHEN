@@ -9,6 +9,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
+                <li class="nav-item d-block d-lg-none mobileLan">
+                    <div class="row">
+                        <a class="col-4" href="#"><i class="fa-solid fa-globe"></i>繁體中文</a>
+                        <a class="col-4" href="#"><i class="fa-solid fa-globe"></i>简体中文</a>
+                        <a class="col-4" href="#"><i class="fa-solid fa-globe"></i>English</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tw_About.asp">關於我們</a>
                 </li>
@@ -24,7 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="tw_Contact.asp">聯絡我們</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown d-none d-lg-block">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                         <div>
                             <i class="fa-solid fa-globe"></i>繁體中文

@@ -41,6 +41,8 @@
     z-index: 100;
 }
 
+
+
 //麵包屑
 .breadcrumb {
     background: #F2F2F2;
@@ -92,11 +94,20 @@
 //首頁Banner
 .banner {
 
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: 2s;
+    }
+
     .swiper-button-next,
     .swiper-button-prev {
         color: #fff;
     }
 }
+
+
 
 
 // 頁標題

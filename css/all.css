@@ -45,6 +45,10 @@ ul {
 .navbar .nav-item:last-child {
   margin-right: 0;
 }
+.navbar .navbar-collapse {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 .navbar .dropdown {
   width: 150px;
   background: #204EAB;
@@ -68,10 +72,31 @@ ul {
 .navbar .dropdown .dropdown-item {
   padding: 4px 0 4px 10px;
 }
+.navbar .mobileLan a {
+  color: #fff;
+  background: #204EAB;
+  text-align: center;
+  padding: 10px 0;
+}
+.navbar .mobileLan a:hover {
+  background: #7396DC;
+}
 @media (max-width: 1200px) {
   .navbar .nav-item {
     font-size: 16px;
     margin-right: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar .navbar-nav {
+    padding: 10px;
+  }
+  .navbar .nav-item {
+    border-bottom: 1px solid #7396DC;
+    margin-right: 0px;
+  }
+  .navbar .nav-item:first-child {
+    border-bottom: none;
   }
 }
 @media (max-width: 576px) {
@@ -219,6 +244,13 @@ footer ul li {
   }
 }
 
+.banner .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
 .banner .swiper-button-next,
 .banner .swiper-button-prev {
   color: #fff;
@@ -457,12 +489,19 @@ footer ul li {
 .index .section3 .col-12 {
   position: relative;
   cursor: pointer;
+  overflow: hidden;
 }
 .index .section3 .col-12:hover .wrap {
   opacity: 0.5;
 }
 .index .section3 .col-12:hover .wrapImg {
   opacity: 1;
+}
+.index .section3 .col-12:hover .contentImg {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 .index .section3 .col-12 .wrap {
   background-color: #fff;
@@ -947,6 +986,9 @@ footer ul li {
     text-align: center;
     margin-bottom: 20px;
   }
+  .productionMaterial .row h3::after {
+    display: none;
+  }
   .productionMaterial .material .swiper-button-prev {
     left: 70%;
   }
@@ -1059,6 +1101,10 @@ footer ul li {
   -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
   padding: 20px;
+  border: 1px solid transparent;
+}
+.productField .main li:hover .wrap {
+  border: 1px solid #204EAB;
 }
 .productField .main li .content h5 {
   font-size: 17px;

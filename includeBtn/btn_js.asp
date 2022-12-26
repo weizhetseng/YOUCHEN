@@ -2,6 +2,7 @@
 <script src="js/lightbox-plus-jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/jquery.js"></script>
 
 
 <!-- Banner 輪播 -->
@@ -18,16 +19,29 @@
       prevEl: ".swiper-button-prev",
     },
     loop: true,
+    effect: "fade",
   });
 </script>
 
 <!-- 回到頂部 -->
 <script>
-  const ToTop = document.getElementById("topBtn")
-
-  top.addEventListener("click", function () {
-    console.log('123')
+  $("#topBtn").click(function () {
+    $("html,body").animate(
+      {
+        scrollTop: 0,
+      },
+      1000
+    )
   })
+  // $(window).scroll(function () {
+  //   if ($(window).scrollTop() > 400) {
+  //     if ($("#topBtn").hasClass("hide")) {
+  //       $("#topBtn").toggleClass("hide")
+  //     }
+  //   } else {
+  //     $("#topBtn").addClass("hide")
+  //   }
+  // })
 </script>
 
 <!-- 生產材質頁面輪播 -->

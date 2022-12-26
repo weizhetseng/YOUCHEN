@@ -102,42 +102,42 @@
             <div class="row" data-aos="fade-up">
                 <div class="col-md-4 col-sm-6 col-12">
                     <a href="./image/page/IMG 拷貝 2.png" data-lightbox="pic-1">
-                        <img src="./image/page/IMG 拷貝 2.png" alt="">
+                        <img class="contentImg" src="./image/page/IMG 拷貝 2.png" alt="">
                         <div class="wrap"></div>
                         <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
                     <a href="./image/page/IMG 拷貝 4.png" data-lightbox="pic-2">
-                        <img src="./image/page/IMG 拷貝 4.png" alt="">
+                        <img class="contentImg" src="./image/page/IMG 拷貝 4.png" alt="">
                         <div class="wrap"></div>
                         <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
                     <a href="./image/page/IMG 拷貝 2.png" data-lightbox="pic-3">
-                        <img src="./image/page/IMG 拷貝 2.png" alt="">
+                        <img class="contentImg" src="./image/page/IMG 拷貝 2.png" alt="">
                         <div class="wrap"></div>
                         <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
                     <a href="./image/page/IMG 拷貝 4.png" data-lightbox="pic-4">
-                        <img src="./image/page/IMG 拷貝 4.png" alt="">
+                        <img class="contentImg" src="./image/page/IMG 拷貝 4.png" alt="">
                         <div class="wrap"></div>
                         <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
                     <a href="./image/page/IMG 拷貝 2.png" data-lightbox="pic-5">
-                        <img src="./image/page/IMG 拷貝 2.png" alt="">
+                        <img class="contentImg" src="./image/page/IMG 拷貝 2.png" alt="">
                         <div class="wrap"></div>
                         <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12">
                     <a href="./image/page/IMG 拷貝 4.png" data-lightbox="pic-6">
-                        <img src="./image/page/IMG 拷貝 4.png" alt="">
+                        <img class="contentImg" src="./image/page/IMG 拷貝 4.png" alt="">
                         <div class="wrap"></div>
                         <img class="wrapImg" src="./image/other/放大鏡icon.png" alt="">
                     </a>
