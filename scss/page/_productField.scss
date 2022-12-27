@@ -66,32 +66,58 @@
         }
 
         li {
-            margin-bottom: 50px;
             position: relative;
+
+            .dashed {
+                border-bottom: 1px dashed #A3A3A3;
+                padding-bottom: 30px;
+            }
+
 
 
             .wrap {
                 position: absolute;
                 display: flex;
                 align-items: center;
-                justify-content: center;
-                width: 50%;
-                height: calc(100% - 130px);
+                justify-content: end;
+                width: 100%;
+                height: calc(100% - 110px);
                 background: #fff;
                 top: 0;
                 right: 0;
-                box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
                 padding: 20px;
                 border: 1px solid transparent;
+                clip-path: polygon(50% 0, 100% 0, 100% 100%, 35% 100%);
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    display: none;
+                    width: 100%;
+                    height: 100%;
+                    background: #fff;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                    clip-path: polygon(50.25% 0.25%, 99.75% 0.25%, 99.75% 99.75%, 35.25% 99.75%);
+                }
             }
 
             &:hover {
                 .wrap {
-                    border: 1px solid $main;
+                    background: $main;
+
+                    &::after {
+                        display: block;
+                    }
                 }
             }
 
             .content {
+                width: 50%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+
                 h5 {
                     font-size: 17px;
                     color: $main;
@@ -114,7 +140,7 @@
 
 
             &:nth-child(even) {
-                margin-top: 100px;
+                margin-top: 80px;
 
                 .wrap {
                     height: calc(100% - 30px);
@@ -129,8 +155,7 @@
 
             .bottomImg {
                 width: 100%;
-                padding-bottom: 30px;
-                border-bottom: 1px dashed #A3A3A3;
+                box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
             }
 
 
@@ -172,36 +197,35 @@
             li {
                 .wrap {
                     padding: 5px;
+                }
 
-                    .content {
-                        h5 {
-                            margin-bottom: 10px;
-                        }
+                .content {
+                    h5 {
+                        margin-bottom: 10px;
                     }
-
-
                 }
             }
         }
     }
 
     @include sm {
-
         .main {
             li {
-                display: flex;
-                flex-direction: column-reverse;
-                margin-bottom: 10px;
+                .content {
 
-                .wrap {
-                    padding: 10px;
-                    position: relative;
-                    width: 100%;
+                    h5 {
+                        margin-bottom: 5px;
+                        font-size: 14px;
+                        gap: 5px;
+                    }
+
+                    p {
+                        line-height: 1.2;
+                        margin-bottom: 0;
+                    }
                 }
             }
         }
-
-
     }
 }
 

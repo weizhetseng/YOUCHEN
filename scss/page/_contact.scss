@@ -34,6 +34,16 @@
                 }
             }
         }
+
+        &.codeArea {
+            justify-content: initial;
+            gap: 20px;
+            margin-bottom: 80px;
+
+            label {
+                margin-bottom: 20px;
+            }
+        }
     }
 
     .inputTextArea {

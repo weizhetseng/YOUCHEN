@@ -54,15 +54,14 @@
                 <div class="inputTextArea">
                     <label for="">
                         <span>*</span>內容說明
-                        <textarea></textarea>
+                        <textarea rows="10"></textarea>
                     </label>
                 </div>
-                <div class="inputArea">
+                <div class="inputArea codeArea">
                     <label for="">
                         <span>*</span>驗證碼
                         <input type="text" name="" id="">
                     </label>
-                    <div class="code"></div>
                 </div>
                 <div class="btnGroup">
                     <div>

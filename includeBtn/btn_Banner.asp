@@ -4,7 +4,7 @@
             <img src="./image/banner/Banner01.png" alt="">
         </div>
         <div class="swiper-slide">
-            <img src="./image/banner/Banner02.png" alt="">
+            <img src="./image/banner/Banner05.png" alt="">
         </div>
         <div class="swiper-slide">
             <img src="./image/banner/Banner03.png" alt="">

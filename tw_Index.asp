@@ -16,11 +16,11 @@
             <p>秉持著 <span>「品質」</span>、<span>「服務」</span>、<span>「迅速」</span>、<span>「確實」</span>的經營理念</p>
         </div>
 
-        <div class="row section1">
-            <div class="col-lg-6 left" data-aos="fade-right">
+        <div class="row section1" data-aos="fade-up">
+            <div class="col-lg-6 left">
                 <img src="./image/page/111584445_m.png" alt="">
             </div>
-            <div class="col-lg-6 right" data-aos="fade-left">
+            <div class="col-lg-6 right">
 
                 <h3>祐振塑膠工業有限公司的主要經營理念以外更有以下三點：</h3>
                 <ul>
@@ -63,12 +63,12 @@
                         其他業種
                     </div>
                 </div>
-                <a href="#">查看更多<i class="fa-solid fa-angles-right"></i></a>
+                <a href="tw_ProductField.asp">查看更多<i class="fa-solid fa-angles-right"></i></a>
 
             </div>
         </div>
-        <div class="row section2">
-            <div class="col-lg-6 left" data-aos="fade-right">
+        <div class="row section2" data-aos="fade-up">
+            <div class="col-lg-6 left">
                 <div>
                     <h3>主要生產材質 :
                         I 尼龍 I ABS/PMMA 壓克力 I 鐵氟龍 I
@@ -90,10 +90,10 @@
                             (TPR、SEBS、 TPS、 TPA 、TPP、TPEE 、TPU、TPV 、TPO、TPE.)
                         </li>
                     </ul>
-                    <a href="#">查看更多<i class="fa-solid fa-angles-right"></i></a>
+                    <a href="tw_ProductionMaterial.asp">查看更多<i class="fa-solid fa-angles-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 right" data-aos="fade-left">
+            <div class="col-lg-6 right">
                 <img src="./image/page/29578546_m.png" alt="">
             </div>
         </div>

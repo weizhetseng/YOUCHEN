@@ -1,1 +1,1 @@
-<div id="topBtn"><i class="fa-solid fa-angle-up"></i></div>
+<div class="topBtn hide"><i class="fa-solid fa-angle-up"></i></div>

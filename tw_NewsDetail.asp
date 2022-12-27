@@ -59,7 +59,7 @@
 
             </li>
             <li data-aos="fade-up">
-                <img src="./image/page/NewsDetail.png" alt="">
+                <img src="./image/page/NewsDetail2.png" alt="">
             </li>
         </ul>
         <div class="back">

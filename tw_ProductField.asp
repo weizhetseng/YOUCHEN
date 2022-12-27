@@ -33,64 +33,79 @@
             <ul class="row">
                 <li class="col-lg-6" data-aos="fade-up">
                     <img class="bottomImg" src="./image/page/field.png" alt="">
-                    <div class="wrap">
-                        <div class="content">
-                            <h5><img src="./image/other/组 218.png" alt="">1.衛浴類</h5>
-                            <p>假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                    <div class="dashed">
+                        <div class="wrap">
+                            <div class="content">
+                                <h5><img src="./image/other/组 218.png" alt="">1.衛浴類</h5>
+                                <p>假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="col-lg-6" data-aos="fade-up">
+                    <img class="bottomImg" src="./image/page/field.png" alt="">
+                    <div class="dashed">
+                        <div class="wrap">
+                            <div class="content">
+                                <h5><img src="./image/other/组 218.png" alt="">1.衛浴類</h5>
+                                <p>假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="col-lg-6" data-aos="fade-up">
                     <img class="bottomImg" src="./image/page/field.png" alt="">
-                    <div class="wrap">
-                        <div class="content">
-                            <h5><img src="./image/other/组 218.png" alt="">2.車針類</h5>
-                            <p>假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                    <div class="dashed">
+                        <div class="wrap">
+                            <div class="content">
+                                <h5><img src="./image/other/组 218.png" alt="">1.衛浴類</h5>
+                                <p>假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="col-lg-6" data-aos="fade-up">
                     <img class="bottomImg" src="./image/page/field.png" alt="">
-                    <div class="wrap">
-                        <div class="content">
-                            <h5><img src="./image/other/组 218.png" alt="">3.車材類</h5>
-                            <p>假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                    <div class="dashed">
+                        <div class="wrap">
+                            <div class="content">
+                                <h5><img src="./image/other/组 218.png" alt="">1.衛浴類</h5>
+                                <p>假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="col-lg-6" data-aos="fade-up">
                     <img class="bottomImg" src="./image/page/field.png" alt="">
-                    <div class="wrap">
-                        <div class="content">
-                            <h5><img src="./image/other/组 218.png" alt="">4.農機類</h5>
-                            <p>假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                    <div class="dashed">
+                        <div class="wrap">
+                            <div class="content">
+                                <h5><img src="./image/other/组 218.png" alt="">1.衛浴類</h5>
+                                <p>假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="col-lg-6" data-aos="fade-up">
                     <img class="bottomImg" src="./image/page/field.png" alt="">
-                    <div class="wrap">
-                        <div class="content">
-                            <h5><img src="./image/other/组 218.png" alt="">5.醫材類</h5>
-                            <p>假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                    <div class="dashed">
+                        <div class="wrap">
+                            <div class="content">
+                                <h5><img src="./image/other/组 218.png" alt="">1.衛浴類</h5>
+                                <p>假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="col-lg-6" data-aos="fade-up">
                     <img class="bottomImg" src="./image/page/field.png" alt="">
-                    <div class="wrap">
-                        <div class="content">
-                            <h5><img src="./image/other/组 218.png" alt="">6.文具類</h5>
-                            <p>假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-lg-6" data-aos="fade-up">
-                    <img class="bottomImg" src="./image/page/field.png" alt="">
-                    <div class="wrap">
-                        <div class="content">
-                            <h5><img src="./image/other/组 218.png" alt="">7.日用品類</h5>
-                            <p>假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                    <div class="dashed">
+                        <div class="wrap">
+                            <div class="content">
+                                <h5><img src="./image/other/组 218.png" alt="">1.衛浴類</h5>
+                                <p>假內容假內容假內容假內容假內容假內容假內容假內容</p>
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -100,7 +115,7 @@
     </div>
     <div class="row bottomLink">
         <a href="tw_ProductField01.asp" class="col-sm-4">
-            <img src="./image/page/field01.png" alt="">
+            <img src="./image/page/field04.png" alt="">
             <div class="content">
                 <p>泛用塑膠</p>
                 <div>

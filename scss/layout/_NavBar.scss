@@ -34,6 +34,19 @@
     .dropdown {
         width: 150px;
         background: $main;
+        position: relative;
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 1px;
+            height: 20px;
+            left: -10%;
+            top: 50%;
+            background: #a3a3a3;
+            transform: translateY(-50%);
+        }
 
 
         .dropdown-toggle {
@@ -72,6 +85,12 @@
         .nav-item {
             font-size: 16px;
             margin-right: 10px;
+        }
+
+        .dropdown {
+            &::before {
+                left: -5%;
+            }
         }
     }
 

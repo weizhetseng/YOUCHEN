@@ -30,7 +30,7 @@
         </h2>
         <ul class="row">
             <li class="col-lg-6">
-                <img class="newsImg" src="./image/page/news.png" alt="">
+                <img class="newsImg" src="./image/page/news2.png" alt="">
                 <div class="row newsTitle">
                     <div class="col-sm-3 date">
                         <p>14</p>
@@ -55,7 +55,7 @@
 
             </li>
             <li class="col-lg-6">
-                <img class="newsImg" src="./image/page/news.png" alt="">
+                <img class="newsImg" src="./image/page/news2.png" alt="">
                 <div class="row newsTitle">
                     <div class="col-sm-3 date">
                         <p>14</p>
@@ -80,7 +80,7 @@
 
             </li>
             <li class="col-lg-6">
-                <img class="newsImg" src="./image/page/news.png" alt="">
+                <img class="newsImg" src="./image/page/news2.png" alt="">
                 <div class="row newsTitle">
                     <div class="col-sm-3 date">
                         <p>14</p>
@@ -105,7 +105,7 @@
 
             </li>
             <li class="col-lg-6">
-                <img class="newsImg" src="./image/page/news.png" alt="">
+                <img class="newsImg" src="./image/page/news2.png" alt="">
                 <div class="row newsTitle">
                     <div class="col-sm-3 date">
                         <p>14</p>

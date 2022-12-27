@@ -25,7 +25,7 @@
 
 <!-- 回到頂部 -->
 <script>
-  $("#topBtn").click(function () {
+  $(".topBtn").click(function () {
     $("html,body").animate(
       {
         scrollTop: 0,
@@ -33,15 +33,15 @@
       1000
     )
   })
-  // $(window).scroll(function () {
-  //   if ($(window).scrollTop() > 400) {
-  //     if ($("#topBtn").hasClass("hide")) {
-  //       $("#topBtn").toggleClass("hide")
-  //     }
-  //   } else {
-  //     $("#topBtn").addClass("hide")
-  //   }
-  // })
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 400) {
+      if ($(".topBtn").hasClass("hide")) {
+        $(".topBtn").toggleClass("hide")
+      }
+    } else {
+      $(".topBtn").addClass("hide")
+    }
+  })
 </script>
 
 <!-- 生產材質頁面輪播 -->

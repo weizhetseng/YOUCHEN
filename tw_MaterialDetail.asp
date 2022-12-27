@@ -35,7 +35,7 @@
             <div class="col-lg-10">
                 <h3>尼龍</h3>
                 <div class="row productIntro">
-                    <img class="bgImg col-lg-9" src="./image/page/material02.png" alt="" data-aos="fade-left">
+                    <img class="bgImg col-lg-9" src="./image/page/material03.png" alt="" data-aos="fade-left">
                     <div class="col-lg-8">
                         <h4>尼龍<span>介紹 :</span></h4>
                         <p>假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容假內容
