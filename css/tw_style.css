@@ -173,6 +173,10 @@ footer ul li {
   }
 }
 
+body {
+  font-family: 微軟正黑體, sans-serif;
+}
+
 .bg {
   background: url(../image/other/YOUCHEN.png) no-repeat, url(../image/other/YOUCHEN02.png) no-repeat;
   background-position: -40px 35%, right -40px bottom 10%;
